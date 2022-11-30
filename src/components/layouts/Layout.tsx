@@ -9,11 +9,6 @@ const Layout: React.FC<{
   return (
     <>
       <Navbar setIsNavAnimationComplete={setIsNavAnimationComplete} />
-      <Title
-        number="01"
-        title="PICK YOUR DESTINATION"
-        isNavAnimationComplete={isNavAnimationComplete}
-      />
       <main>{children}</main>
     </>
   );
