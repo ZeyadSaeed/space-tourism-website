@@ -6,7 +6,7 @@ const Navbar: React.FC<{
   setActiveSection: React.Dispatch<React.SetStateAction<string>>;
 }> = ({ activeSection, setActiveSection }) => {
   return (
-    <nav className="my-5 xl:self-start xl:ml-[88px]">
+    <nav className="my-5 xl:self-start xl:ml-[132px]">
       <ul className="flex gap-[26px] xl:justify-start">
         {data.destinations.map((destination) => (
           <li key={destination.name} className="relative">

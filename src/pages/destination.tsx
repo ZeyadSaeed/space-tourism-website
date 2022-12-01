@@ -30,7 +30,7 @@ const Destination: NextPage<{ isNavAnimationComplete: boolean }> = ({
     <div className="w-screen fixed inset-0 h-screen bg-no-repeat bg-destination-mobile sm:bg-destination-tablet md:bg-destination-desktop bg-cover p-6 tb:p-[38.5px] text-white pt-[88px] tb:pt-[136px] xl:pt-[212px] overflow-y-scroll scrollbar-hide">
       <Meta title="Destination" />
 
-      <main className="max-w-[1110px] xl:m-auto flex flex-col gap-[6px] tb:gap-[53px] xl:flex-row w-full">
+      <main className="max-w-[1210px] xl:m-auto flex flex-col gap-[6px] tb:gap-[53px] xl:flex-row w-full">
         <div className="flex flex-col items-center gap-8 tb:gap-[60px] xl:gap-[97px] xl:basis-1/2 ">
           <Title
             number="01"

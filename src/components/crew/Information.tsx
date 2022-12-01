@@ -18,7 +18,7 @@ const Information: React.FC<{ activeSection: number }> = ({
     }
   };
   return (
-    <div className="text-center flex flex-col gap-4 xl:text-start xl:gap-[27px]">
+    <div className="text-center flex flex-col gap-4 xl:text-start xl:gap-[27px] xl:pt-[154px]">
       <div className="flex flex-col gap-2 xl:gap-[15px]">
         <h2 className="opacity-50 leading-[18.34px] tb:text-2xl tb:leading-[27.5px] xl:text-[32px] xl:leading-[36.67px]">
           {info.role.toUpperCase()}
