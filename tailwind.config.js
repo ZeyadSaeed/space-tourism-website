@@ -42,6 +42,7 @@ module.exports = {
       colors: {
         navbar: "rgba(255, 255, 255, 0.04)",
         burgerIcon: "#D0D6F9",
+        lightGray: "#383B4B",
       },
       blur: {
         navbar: "40.7742px",
@@ -51,5 +52,8 @@ module.exports = {
       },
     },
   },
-  plugins: [require("tailwind-scrollbar-hide")],
+  plugins: [
+    require("tailwind-scrollbar-hide"),
+    require("@tailwindcss/line-clamp"),
+  ],
 };

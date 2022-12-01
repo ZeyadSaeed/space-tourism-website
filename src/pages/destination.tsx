@@ -1,5 +1,5 @@
 import { NextPage } from "next";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Navbar from "../components/destination/Navbar";
 import PlanetImage from "../components/destination/PlanetImage";
 import PlanetInformation from "../components/destination/PlanetInformation";
